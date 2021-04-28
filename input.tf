@@ -1,4 +1,6 @@
 variable "public_key" {
   description = "Public key of the developer to access the EC2 machine"
   type = string
+  default = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCSWUV9oVrU4qa1u7KXkzplh0NTMWt/Tnr0i4j37Knk6cEen0PLfpT+SC74jNxHCcNQXdGcOgYODaXndvMNuhhyEeJsOFz6oDprHsBsBvcQDPIR4SmQpDBKRilT3ooZnCmTDCKGIynuV8Od1BdJ8VCKdK4CYih4dyGdkKLs+li2v0y6dxFDGI84MXlJTLxbQjtpb96ouLUNSSlNHL5gRcySX/X/HQw/WXRfyAqwowOJU10aGC6kNZ5GZK0nfs2mXkyqGN2IVITVXOZNj6hG0HjjvAxssPfv4zisywZjAYcZoSCd/Mw+p1y6OktBRCYUUMTbTfitTaI3QJA3aN2pcUMh projectvDart"
 }
+

@@ -40,7 +40,7 @@ resource "aws_instance" "machine" {
   }
 
   vpc_security_group_ids = [aws_security_group.machine_access.id]
-  user_data_base64 = data.cloudinit_config.init.rendered
+  user_data_base64 = "${data.cloudinit_config.init.rendered}"
 }
 
 resource "aws_security_group" "machine_access" {
